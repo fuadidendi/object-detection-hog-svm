@@ -1,13 +1,19 @@
-#Object-Detector
-This project is created to support the blog [post](http://hackevolve.com/create-your-own-object-detector/). It uses HOG+SVM framework for performing Object Detection.
+# Object-Detection-HOG-SVM
+This project was forked repo from [post](https://github.com/saideeptalari/Object-Detector)
+In this object detection uses Histogram of Gradient (HOG) + Support Vector Machine (SVM) framework for perfoming detection oject.
 
-###Usage:
+## About the Project
 
-####Gather annotations from images...
-![](https://i0.wp.com/hackevolve.com/wp-content/uploads/2017/02/Screenshot-from-2017-02-05-22-08-08.png)
+### Built With
 
-####Train Object Detector
-![](https://i0.wp.com/hackevolve.com/wp-content/uploads/2017/02/Screenshot-from-2017-02-05-22-00-48.png?resize=768%2C432)
+## Getting Started
 
-####Performing Object Detection
-![](https://i2.wp.com/hackevolve.com/wp-content/uploads/2017/02/Screenshot-from-2017-02-05-22-02-53.png?resize=768%2C432)
+### Installation
+
+## Usage
+
+### Gather annotation
+
+### Train
+
+### Test
