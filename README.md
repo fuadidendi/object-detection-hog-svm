@@ -43,3 +43,7 @@ python train.py -a jam_dinding_annot.npy -i jam_dinding_image.npy -d jam_dinding
 ```sh
 python test.py -d jam_dinding_detector -i Dataset/Jam-Dinding/1.png -a Jam-Dinding
 ```
+### Test-Realtime
+```sh
+python test.py -d jam_dinding_detector -i Dataset/Jam-Dinding/1.png -a Jam-Dinding
+```
