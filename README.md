@@ -12,8 +12,10 @@ In this object detection uses Histogram of Gradient (HOG) + Support Vector Machi
 
 ## Usage
 
-### Gather annotation
-
+### Annotation
+```sh
+python annotate.npy -d Dataset/Jam-Dinding -a jam_dinding_annot.npy -i jam_dinding_image.npy
+```
 ### Train
 
 ### Test
