@@ -16,7 +16,7 @@ class ObjectDetector(object):
     def _prepare_annotations(self,annotations):
         annots = []
         for (x,y,xb,yb) in annotations:
-            annots.append([dlib.rectangle(left=long(x),top=long(y),right=long(xb),bottom=long(yb))])
+            annots.append([dlib.rectangle(left=int(x),top=int(y),right=int(xb),bottom=int(yb))])
         return annots
 
     def _prepare_images(self,imagePaths):
