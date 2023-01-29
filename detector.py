@@ -41,6 +41,10 @@ class ObjectDetector(object):
         #save detector to disk
         if savePath is not None:
             self._detector.save(savePath)
+        
+        #printout training accuracy
+        print("Training accuracy: {}".format(
+            dlib.test_simple_object_detector(images, annotations, self._detector)))
 
         return self
 
