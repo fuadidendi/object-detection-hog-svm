@@ -5,8 +5,17 @@ In this object detection uses Histogram of Gradient (HOG) + Support Vector Machi
 ## About the Project
 This project use HOG-SVM for object detection. For use this project, the step that you need to follows:
 - Annotate the dataset
+
+![Alt text](annotate.png?raw=true "Before annotation")
+![Alt text](annotate-1.png?raw=true "After annotation")
+
 - Traing the model
+
+![Alt text](extracted-hog.png?raw=true "Extracted HOG")
+
 - Test the model
+
+![Alt text](test-result.png?raw=true "Test result")
 
 ### Built With
 ```sh
