@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import argparse
 from imutils.paths import list_images
-from selectors import BoxSelector
+from obj_selectors import BoxSelector
 
 #parse arguments
 ap = argparse.ArgumentParser()
