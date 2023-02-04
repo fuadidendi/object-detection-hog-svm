@@ -43,9 +43,13 @@ class ObjectDetector(object):
             self._detector.save(savePath)
         
         #printout training accuracy
-        print("Training accuracy: {}".format(
-            dlib.test_simple_object_detector(images, annotations, self._detector)))
-
+        #print("Training accuracy: {}".format(
+        #    dlib.test_simple_object_detector(images, annotations, self._detector)))
+        metrics = dlib.test_simple_object_detector(images, annotations, self._detector)
+        print("Precision:", metrics.precision)
+        print("Recall:", metrics.recall)
+        print("Average Precision:", metrics.average_precision)
+        
         return self
 
     def predict(self,image):
